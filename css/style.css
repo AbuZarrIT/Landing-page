@@ -1,17 +1,15 @@
 :root {
-    --descr-color: #707070;       /* Определение переменной --main-color и её значения */
-    --btn-color: #FFD703; /* Определение переменной --background-color и её значения */
-  }
-  /*  */
-
-.my-title-class{
+    --descr-color: #707070; 
+    --btn-color: #FFD703;
+}
+.title-styles{
     font-family: Poppins;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.my-description-class{
+.text-styles{
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -19,9 +17,8 @@
     line-height: normal;
     letter-spacing: 0.1px;
 }
-
-
 body{
+    box-sizing: border-box;
     margin : 0;
     padding: 0px;
 }

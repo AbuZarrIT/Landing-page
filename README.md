@@ -8,4 +8,4 @@ if you enter in the terminal
 
 But you will receive cards with data from a file in the database folder
 
-##[you can open this site using this link](https://abuzarrit.github.io/webSite-one/)
+##[you can open this site using this link](https://abuzarrit.github.io/Landing-page/)
