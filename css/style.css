@@ -2,14 +2,14 @@
     --descr-color: #707070; 
     --btn-color: #FFD703;
 }
-.title-styles{
+.title-styles {
     font-family: Poppins;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.text-styles{
+.text-styles {
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -17,7 +17,7 @@
     line-height: normal;
     letter-spacing: 0.1px;
 }
-body{
+body {
     box-sizing: border-box;
     margin : 0;
     padding: 0px;
@@ -25,13 +25,13 @@ body{
 
 /* gener block header */
 
-.header{
+.header {
     background-image: linear-gradient(180deg, #006977 -36.24%, rgba(0, 54, 62, 0.00) 93.93%), url(../img/bg-first.png);
     height: 1514px;
     width: 100%;
     background-size: cover;
 }
-.header__wrapper{
+.header__wrapper {
     margin: 0 200px 0 200px;
 }
 
@@ -67,15 +67,15 @@ body{
     text-transform: uppercase;
     text-decoration: none;
 }
-.menu__link:hover{
+.menu__link:hover {
     color: var(--btn-color);
 }
-.menu-box{
+.menu-box {
     display: flex;
     gap: 120px;
     margin-top: 55px;
 }
-.menu-Container-btn{
+.menu-Container-btn {
     margin-top: 40px;
     margin-left: 50px;
 }
@@ -138,7 +138,7 @@ body{
     cursor: pointer;
     margin-top: 60px;
 }
-.let-go__btn_text {
+.lets-go__btn-text {
     color: var(--project-link-lable-dark, #2C2C2C);
     text-align: center;
     font-family: Poppins;
@@ -172,7 +172,7 @@ body{
     position: absolute;
     translate: -50% -50%;
 }
-.subTract-Btn {
+.sub-tract-btn {
     top: 50%;
     left: 50%;
     position: absolute;
@@ -181,11 +181,11 @@ body{
     background-color: transparent;
     border: none;
 }
-.subTract-Btn-img {
+.sub-tract-btn-img {
     width: 134px;
     height: 134px;
 }
-.subTract-Btn-img:hover{
+.sub-tract-btn-img:hover{
     width: 138px;
     height: 138px;
 }
@@ -705,7 +705,7 @@ body{
     flex-direction: column;
     gap: 8px;
 }
-.footer-item-link{
+.footer-item-link {
     color: var(--project-link-simple-dark, #38B7AF);
     font-family: Poppins;
     font-size: 12px;
@@ -725,10 +725,10 @@ body{
     line-height: normal;
     padding-top: 8px;
 }
-.footer-item{
+.footer-item {
     list-style-type: none;
 }
-.footer-item-active{
+.footer-item-active {
     padding-bottom: 8px;
 }
 .footer-inp-descr{
@@ -741,7 +741,7 @@ body{
     line-height: normal;
     letter-spacing: 0.1px;
 }
-.footer-inp-name{
+.footer-inp-name {
     color: var(--project-link-nav-light, #FFF);
     font-family: Poppins;
     font-size: 12px;
@@ -749,7 +749,7 @@ body{
     font-weight: 400;
     line-height: normal;
 }
-.footer-line{
+.footer-line {
     display: block;
     width: 100%;
     min-width: 500px;
@@ -774,7 +774,7 @@ h3.footer-item-link-active {
 
 /* mobile-first */
 
-@media (max-width: 1650px){
+@media (max-width: 1650px) {
     .subtitle__text {
         font-size: 70px;
     }
@@ -822,7 +822,7 @@ h3.footer-item-link-active {
         width: 350px;
     }
 }
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     .header__wrapper {
         margin: 0 50px 0 50px;
     }
@@ -874,7 +874,7 @@ h3.footer-item-link-active {
         width: 100%;
     } 
 }
-@media (max-width: 750px){
+@media (max-width: 750px) {
     .menu-Container {
         display: none;
     }
@@ -897,7 +897,7 @@ h3.footer-item-link-active {
         width: 210px;
         height: 210px;
     }
-    .sub-Tract{
+    .sub-Tract {
         margin-top: 50px;
     }
     .title {
