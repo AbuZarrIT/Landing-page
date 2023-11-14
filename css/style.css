@@ -26,7 +26,7 @@ body{
 /* gener block header */
 
 .header{
-    background-image: linear-gradient(180deg, #006977 -36.24%, rgba(0, 54, 62, 0.00) 93.93%), url(/img/bg-first.png);
+    background-image: linear-gradient(180deg, #006977 -36.24%, rgba(0, 54, 62, 0.00) 93.93%), url(./img/bg-first.png);
     height: 1514px;
     width: 100%;
     background-size: cover;
@@ -463,7 +463,7 @@ body{
     width: 90%;
     height: 939px;
     border-radius: 25px;
-    background-image: url(/img/back.png);
+    background-image: url(./img/back.png);
 }
 .swiper-padding-box{
     display: none;
