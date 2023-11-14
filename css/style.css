@@ -2,6 +2,9 @@
     --descr-color: #707070; 
     --btn-color: #FFD703;
 }
+.close-modal{
+    display: none;
+}
 .title-styles {
     font-family: Poppins;
     font-size: 60px;
@@ -52,7 +55,8 @@ body {
 
 /* menu rechts */
 
-.menu-Container {
+.menu-container {
+    align-items: baseline;
     display: flex;
     flex-direction: row;
 }
@@ -75,7 +79,7 @@ body {
     gap: 120px;
     margin-top: 55px;
 }
-.menu-Container-btn {
+.menu-container-btn {
     margin-top: 40px;
     margin-left: 50px;
 }
@@ -875,7 +879,7 @@ h3.footer-item-link-active {
     } 
 }
 @media (max-width: 750px) {
-    .menu-Container {
+    .menu-container {
         display: none;
     }
     .header__wrapper {
