@@ -802,7 +802,7 @@ h3.footer-item-link-active {
         width: 280px;
     }
     .speed-wrapper {
-        flex-direction: column;
+        justify-content: space-evenly;
         align-items: flex-start;
     }
     .team-wrapper {
@@ -817,6 +817,9 @@ h3.footer-item-link-active {
     }
     .footer-link-container {
         gap: 20px;
+    }
+    .speed-container {
+        width: 350px;
     }
 }
 @media (max-width: 1200px){
