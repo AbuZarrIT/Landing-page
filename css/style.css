@@ -1004,6 +1004,8 @@ h3.footer-item-link-active {
     }
     .swiper-padding-box.swiper-padding-box-active {
         background: rgba(255, 255, 255, 0.4);
+        top: 120px;
+        height: 261px;
     }
     h1.team-title-text.title-styles {
         font-size: 50px;
