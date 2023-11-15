@@ -933,7 +933,7 @@ h3.footer-item-link-active {
         font-size: 30px;
     }
     .swiper-description__text {
-        font-size: 14px;
+        font-size: 18px;
     }
     button.swiper-signUp__btn {
         width: 100px;
@@ -946,7 +946,8 @@ h3.footer-item-link-active {
     }
     button.swiper-scroll-btn {
         border-width: 1px;
-        height: 13px;
+        height: 10px;
+        width: 10px;
     }
     h1.team-title-text.my-title-class {
         font-size: 40px;
@@ -980,13 +981,48 @@ h3.footer-item-link-active {
         margin: 0 10px 0 10px;
     }
     .footer-link-container {
-        justify-content: center;
         flex-wrap: wrap;
+        gap: 15px 27px;
     }
     .why-border-box {
         justify-content: center;
     }
     span.footer-line {
         min-width: 100px;
+    }
+    h1.graphic-title.title-styles {
+        font-size: 50px;
+    }
+    .speed-wrapper {
+        margin-top: 35px;
+    }
+    .swiper {
+        margin-top: 100px;
+    }
+    h1.swiper-title__text.title-styles {
+        font-size: 40px;
+    }
+    .swiper-padding-box.swiper-padding-box-active {
+        background: rgba(255, 255, 255, 0.4);
+    }
+    h1.team-title-text.title-styles {
+        font-size: 50px;
+    }
+    .team-wrapper {
+        justify-content: center;
+    }
+    ul.footer-list {
+        margin: 0;
+        padding: 0;
+    }
+    img.modal-close-img {
+        left: 340px;
+    }
+    .modal-box {
+        width: 98%;
+        height: 350px;
+    }
+    h2.modal-title {
+        margin: 22px 0px;
     }
 }
