@@ -879,6 +879,12 @@ h3.footer-item-link-active {
     } 
 }
 @media (max-width: 750px) {
+    p.team-title-description.text-styles {
+        width: 95%;
+    }
+    .footer-inp-container {
+        margin-left: 0px;
+    }
     .menu-container {
         display: none;
     }
@@ -979,5 +985,8 @@ h3.footer-item-link-active {
     }
     .why-border-box {
         justify-content: center;
+    }
+    span.footer-line {
+        min-width: 100px;
     }
 }
