@@ -1,3 +1,28 @@
+/*---------FONTS---------*/
+@font-face {
+    font-family: 'Poppins';
+    src: url(/fonts/st-Regular.ttf) format('ttf'), url(/yoursite/fonts/st-Regular.woff) format('woff');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/yoursite/fonts/st-Italic.ttf) format('ttf'), url(/yoursite/fonts/st-Italic.woff) format('woff');
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/yoursite/fonts/st-Bold.ttf) format('ttf'), url(/yoursite/fonts/st-Bold.woff) format('woff');
+    font-weight: 700;
+  }
+/*---------BODY---------*/
+body{
+    font-family: Poppins;
+    font-size: 16px;
+    color:#F4F4F4;
+}
 :root {
     --descr-color: #707070; 
     --btn-color: #FFD703;
