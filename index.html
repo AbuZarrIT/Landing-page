@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebSiteProject</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
     <header class="header">
-        <div class="header__wrapper">
+        <div class="header__wrapper container">
             <div class="menu">
                 <div class="logo">
                     <a href="#" class="logo__link"><img class="logo__img" src="./img/logo.svg" alt="logo"></a>
@@ -23,14 +23,7 @@
                         <a href="#" class="menu__link">Help</a>
                         <a href="#" class="menu__link">Blog</a>
                         <a href="#" class="menu__link">Log In</a>
-                    </div>
-                
-                    <div class="menu-container-btn">
-                        <button href="#" class="menu__link menu__link-active">Sign Up
-                            <!-- <p class="menu__link-btn-text"></p> -->
-                            
-                            <img class="menu__link-btn-img" src="./img/Flash.svg" alt="">
-                        </button>
+                        <a href="#" class="menu__link sign-up-button-small">Sign Up <img src="./img/Flash.svg" alt="button-sign-up"></a>
                     </div>
      
                 </div>
@@ -40,13 +33,13 @@
     
                 <div class="title">
                     <div class="subtitle">
-                        <h1 class="subtitle__text">Listen To The<br> Beat Of The Web</h1> 
+                        <h1 class="subtitle__text h1-head">Listen To The<br> Beat Of The Web</h1> 
                     </div>
                     <div class="description">
                         <h3 class="description__text">First template from series templates to design web pages, using components system</h3> 
                     </div>
                     <div class="lets-Go">
-                        <button class="lets-go__btn"><p class="lets-go__btn-text">Let’s Go</p><img src="./img/btn-img.svg" alt="letsgo-logo" class="lets-go_img"></button>
+                        <button class="lets-go__btn sign-up-button-big">Let’s Go<img src="./img/btn-img.svg" alt="letsgo-logo" class="lets-go_img"></button>
                     </div>
                 </div>
         
@@ -63,10 +56,24 @@
     
             <div class="cards">
                 <div class="cards-description">
-                    <h1 class="cards-description__text title-styles">How it works</h1>
+                    <h1 class="cards-description__text h1">How it works</h1>
                 </div>
                 <div class="cards-container">
-    
+                    <div class="card">
+                        <img src="img/cards-logo.svg" alt="cards-image" class="card-img">
+                        <h2 class="card-title">Read it</h2>
+                        <p class="card-description my-description-class">Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>    
+                    </div>
+                    <div class="card">
+                        <img src="img/cards-logo.svg" alt="cards-image" class="card-img">
+                        <h2 class="card-title">Read it</h2>
+                        <p class="card-description my-description-class">Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>    
+                    </div>
+                    <div class="card">
+                        <img src="img/cards-logo.svg" alt="cards-image" class="card-img">
+                        <h2 class="card-title">Read it</h2>
+                        <p class="card-description my-description-class">Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>    
+                    </div>
                 </div>
             </div>
     
@@ -100,17 +107,17 @@
 
     <main class="main">
 
-        <div class="main__wrapper">
+        <div class="main__wrapper container">
 
             <section class="why">
 
                 <div class="why-title">
-                    <h1 class="why-text title-styles">Why you'll love it</h1>
+                    <h1 class="why-text h1">Why you'll love it</h1>
                 </div>
     
                 <div class="why-border-box">
     
-                    <div class="why-padding-box">
+
                         <div class="why-people">
                             <div class="why-box">
                                 <div class="why-foto"><img class="why-img" src="./img/Avatar.png" alt="people-foto"></div>
@@ -120,12 +127,12 @@
                                 </div>
                             </div>
                             <div class="why-container">
-                                <p class="why-description text-styles">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum dolor.</p>
+                                <p class="why-description paragraph">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum dolor.</p>
                             </div>
                         </div>
-                    </div>
+
         
-                    <div class="why-padding-box">
+
                         <div class="why-people">
                             <div class="why-box">
                                 <div class="why-foto"><img class="why-img" src="./img/Avatar.png" alt="people-foto"></div>
@@ -138,9 +145,9 @@
                                 <p class="why-description">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum dolor.</p>
                             </div>
                         </div>
-                    </div>
+
         
-                    <div class="why-padding-box">
+
                         <div class="why-people">
                             <div class="why-box">
                                 <div class="why-foto"><img class="why-img" src="./img/Avatar.png" alt="people-foto"></div>
@@ -153,7 +160,7 @@
                                 <p class="why-description">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum dolor.</p>
                             </div>
                         </div>
-                    </div>
+
     
                 </div>
     
@@ -161,64 +168,69 @@
 
             <section class="graphic">
                 <div class="graphic-box">
-                    <h1 class="graphic-title title-styles">Unsplash graphic</h1>
-                    <p class="graphic-description text-styles">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.</p>
+                    <h1 class="graphic-title h1">Unsplash graphic</h1>
+                    <p class="graphic-description paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.</p>
+                </div>
+                <div class="graphic-swiper">
+                    <img src="./img/1.png" alt="">
+                    <img src="./img/2.png" alt="">
+                    <img src="./img/3.png" alt="">
+                    <img src="./img/1.png" alt="">
+                    <img src="./img/2.png" alt="">
                 </div>
             </section>
 
             <section class="speed">
             
-                <h1 class="speed__title title-styles">Speed up your design process</h1>
+                <h1 class="speed__title h1">Speed up your design process</h1>
                 
                 <div class="speed-wrapper">
 
                     <div class="speed-container">
                         <div class="speed-first-box"><img src="./img/speed1.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle title-styles number1">Auto Layout</h1>
-                            <p class="speed__description text-styles">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
+                            <h1 class="speed__subtitle h1 number1">Auto Layout</h1>
+                            <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
     
                     <div class="speed-container">
                         <div class="speed-first-box"><img src="./img/speed2.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle title-styles number2">Variants</h1>
-                            <p class="speed__description text-styles">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
+                            <h1 class="speed__subtitle h1 number2">Variants</h1>
+                            <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
     
                     <div class="speed-container">
                         <div class="speed-first-box"><img src="./img/speed3.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle title-styles number3">Components</h1>
-                            <p class="speed__description text-styles">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
+                            <h1 class="speed__subtitle h1 number3">Components</h1>
+                            <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
 
-                </div>
-                <div class="speed-wrapper">
                     <div class="speed-container">
                         <div class="speed-first-box"><img src="./img/speed4.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle title-styles number4">Atomic Design</h1>
-                            <p class="speed__description text-styles">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
+                            <h1 class="speed__subtitle h1 number4">Atomic Design</h1>
+                            <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
     
                     <div class="speed-container">
                         <div class="speed-first-box"><img src="./img/speed5.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle title-styles number5">Animated</h1>
-                            <p class="speed__description text-styles">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
+                            <h1 class="speed__subtitle h1 number5">Animated</h1>
+                            <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
     
                     <div class="speed-container">
                         <div class="speed-first-box"><img src="./img/speed6.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle title-styles number6">Responsive</h1>
-                            <p class="speed__description text-styles">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
+                            <h1 class="speed__subtitle h1 number6">Responsive</h1>
+                            <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
                 </div>
@@ -228,122 +240,20 @@
 
                 <div class="swiper-bg">
 
-                    <div class="swiper-padding-box swiper-padding-box-active">
+                    <div class="swiper-padding-box swiper-padding-box-active card">
 
                         <div class="swiper-wrapper">
                             <div class="swiper-title">
-                                <h1 class="swiper-title__text title-styles">Enjoy this product</h1>
+                                <h1 class="swiper-title__text h1">Enjoy this product</h1>
                             </div>
                             <div class="swiper-description">
-                                <p class="swiper-description__text text-styles">
+                                <p class="swiper-description__text paragraph">
                                     This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
                                 </p>
                             </div>
                             <div class="swiper-box">
                                 <div class="swiper-signUp">
-                                    <button class="swiper-signUp__btn">
-                                        <p class="swiper-signUp__btn__text">Sign Up</p>
-                                        <img class="swiper-signUp__btn__img" src="./img/Flash-black.svg" alt="">
-                                    </button>
-                                </div>
-                                <div class="swiper-scroll">
-                                    <button class="swiper-scroll-btn"></button>
-                                    <button class="swiper-scroll-btn"></button>
-                                    <button class="swiper-scroll-btn swiper-scroll-btn-active"></button>
-                                    <button class="swiper-scroll-btn"></button>
-                                </div>
-                                <div class="swiper-navigation">
-                                    <button class="swiper-next"><img class="swiper-last-img" src="./img/last.svg" alt=""></button>
-                                    <button class="swiper-last"><img class="swiper-next-img" src="./img/next.svg" alt=""></button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="swiper-padding-box">
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-title">
-                                <h1 class="swiper-title__text title-styles">Akhmad</h1>
-                            </div>
-                            <div class="swiper-description">
-                                <p class="swiper-description__text text-styles">
-                                    This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
-                                </p>
-                            </div>
-                            <div class="swiper-box">
-                                <div class="swiper-signUp">
-                                    <button class="swiper-signUp__btn">
-                                        <p class="swiper-signUp__btn__text">Sign Up</p>
-                                        <img class="swiper-signUp__btn__img" src="./img/Flash-black.svg" alt="">
-                                    </button>
-                                </div>
-                                <div class="swiper-scroll">
-                                    <button class="swiper-scroll-btn"></button>
-                                    <button class="swiper-scroll-btn"></button>
-                                    <button class="swiper-scroll-btn swiper-scroll-btn-active"></button>
-                                    <button class="swiper-scroll-btn"></button>
-                                </div>
-                                <div class="swiper-navigation">
-                                    <button class="swiper-next"><img class="swiper-last-img" src="./img/last.svg" alt=""></button>
-                                    <button class="swiper-last"><img class="swiper-next-img" src="./img/next.svg" alt=""></button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="swiper-padding-box">
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-title">
-                                <h1 class="swiper-title__text title-styles">Mavile</h1>
-                            </div>
-                            <div class="swiper-description">
-                                <p class="swiper-description__text text-styles">
-                                    This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
-                                </p>
-                            </div>
-                            <div class="swiper-box">
-                                <div class="swiper-signUp">
-                                    <button class="swiper-signUp__btn">
-                                        <p class="swiper-signUp__btn__text">Sign Up</p>
-                                        <img class="swiper-signUp__btn__img" src="./img/Flash-black.svg" alt="">
-                                    </button>
-                                </div>
-                                <div class="swiper-scroll">
-                                    <button class="swiper-scroll-btn"></button>
-                                    <button class="swiper-scroll-btn"></button>
-                                    <button class="swiper-scroll-btn swiper-scroll-btn-active"></button>
-                                    <button class="swiper-scroll-btn"></button>
-                                </div>
-                                <div class="swiper-navigation">
-                                    <button class="swiper-next"><img class="swiper-last-img" src="./img/last.svg" alt=""></button>
-                                    <button class="swiper-last"><img class="swiper-next-img" src="./img/next.svg" alt=""></button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="swiper-padding-box">
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-title">
-                                <h1 class="swiper-title__text title-styles">Suleyman</h1>
-                            </div>
-                            <div class="swiper-description">
-                                <p class="swiper-description__text text-styles">
-                                    This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
-                                </p>
-                            </div>
-                            <div class="swiper-box">
-                                <div class="swiper-signUp">
-                                    <button class="swiper-signUp__btn">
-                                        <p class="swiper-signUp__btn__text">Sign Up</p>
-                                        <img class="swiper-signUp__btn__img" src="./img/Flash-black.svg" alt="">
-                                    </button>
+                                    <a href="#" class="swiper-signUp-btn menu__link sign-up-button-small">Sign Up <img src="./img/Flash-black.svg" alt="button-sign-up"></a>
                                 </div>
                                 <div class="swiper-scroll">
                                     <button class="swiper-scroll-btn"></button>
