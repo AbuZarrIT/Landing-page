@@ -1,4 +1,4 @@
-
+/* 
 
 //this is button for modal for user login and password
 
@@ -43,6 +43,6 @@ fetch('http://localhost:3000/menu')
    data.forEach(({img,altimg,title,descr}) => {
         new cards(img,altimg,title,descr).addCards()
    })
-})
+}) *//*  */
 
 /* swiper */
