@@ -14,6 +14,11 @@
                 <div class="logo">
                     <a href="#" class="logo__link"><img class="logo__img" src="./img/logo.svg" alt="logo"></a>
                 </div>
+                <div class="burger-menu">
+                    <button class="burger-menu-btn">
+                        <ion-icon name="reorder-four-outline" class="burger-menu-img"></ion-icon>
+                    </button>
+                </div>
                 <div class="menu-container">
                     
                     <div class="menu-box">
@@ -23,7 +28,7 @@
                         <a href="#" class="menu__link">Help</a>
                         <a href="#" class="menu__link">Blog</a>
                         <a href="#" class="menu__link">Log In</a>
-                        <a href="#" class="menu__link sign-up-button-small">Sign Up <img src="./img/Flash.svg" alt="button-sign-up"></a>
+                        <a href="#" class="menu__link sign-up-button-small registration">Sign Up <img src="./img/Flash.svg" alt="button-sign-up"></a>
                     </div>
                     
                 </div>
@@ -39,7 +44,7 @@
                         <h3 class="description__text">First template from series templates to design web pages, using components system</h3> 
                     </div>
                     <div class="lets-Go">
-                        <button class="lets-go__btn sign-up-button-big">Let’s Go<img src="./img/btn-img.svg" alt="letsgo-logo" class="lets-go_img"></button>
+                        <button class="lets-go__btn sign-up-button-big registration">Let’s Go<img src="./img/btn-img.svg" alt="letsgo-logo" class="lets-go_img"></button>
                     </div>
                 </div>
         
@@ -77,7 +82,7 @@
                 </div>
             </div>
     
-            <div class="modal">
+            <div class="modal close-modal">
                 <div class="modal-container">
                     <div class="modal-box">
                         <form class='modal-form' action="#">
@@ -89,7 +94,7 @@
                             </div>
                             <div class="modal-input-second-box">
                                 <img class="modal-input-second-box-img" src="./img/password:icon.svg" alt="">
-                                <input placeholder="Password" type="text" class="modal-input-pasword pasword">
+                                <input placeholder="Password" type="password" class="modal-input-pasword pasword">
                             </div>
                             <div class="modal-button-box">
                                 <button class="modal-button-submit submit" type="submit"><img class="modal-button-submit-img" src="./img/signIn-icon.svg" alt=""></button>
@@ -189,7 +194,7 @@
                     <div class="speed-container">
                         <div class="speed-first-box"><img class="speed-img" src="./img/speed1.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle h1 number1">Auto Layout</h1>
+                            <h1 class="speed__subtitle h1 auto-layout">Auto Layout</h1>
                             <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
@@ -197,7 +202,7 @@
                     <div class="speed-container">
                         <div class="speed-first-box"><img class="speed-img" src="./img/speed2.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle h1 number2">Variants</h1>
+                            <h1 class="speed__subtitle h1 variants">Variants</h1>
                             <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
@@ -205,7 +210,7 @@
                     <div class="speed-container">
                         <div class="speed-first-box"><img class="speed-img" src="./img/speed3.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle h1 number3">Components</h1>
+                            <h1 class="speed__subtitle h1 components">Components</h1>
                             <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
@@ -213,7 +218,7 @@
                     <div class="speed-container">
                         <div class="speed-first-box"><img class="speed-img" src="./img/speed4.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle h1 number4">Atomic Design</h1>
+                            <h1 class="speed__subtitle h1 atomic-design">Atomic Design</h1>
                             <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
@@ -221,7 +226,7 @@
                     <div class="speed-container">
                         <div class="speed-first-box"><img class="speed-img" src="./img/speed5.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle h1 number5">Animated</h1>
+                            <h1 class="speed__subtitle h1 animated">Animated</h1>
                             <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
@@ -229,7 +234,7 @@
                     <div class="speed-container">
                         <div class="speed-first-box"><img class="speed-img" src="./img/speed6.svg" alt="" class="speed__img"></div>
                         <div class="speed-second-box">
-                            <h1 class="speed__subtitle h1 number6">Responsive</h1>
+                            <h1 class="speed__subtitle h1 responsive">Responsive</h1>
                             <p class="speed__description paragraph">Sed do eiusmod tempor incididunt ut consectetur adipisicing elit,do eiusmod tempor incididunt ut labore et dolore</p>
                         </div>
                     </div>
@@ -243,22 +248,69 @@
                     <div class="swiper-padding-box swiper-padding-box-active card">
 
                         <div class="swiper-wrapper">
-                            <div class="swiper-title">
-                                <h1 class="swiper-title__text h1">Enjoy this product</h1>
+
+                            <div class="swiper-slider-box">
+
+                                <div class="swiper-title">
+                                    <h1 class="swiper-title__text h1">1 Enjoy this product</h1>
+                                </div>
+                                <div class="swiper-description">
+                                    <p class="swiper-description__text paragraph">
+                                        This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
+                                    </p>
+                                </div>
+
                             </div>
-                            <div class="swiper-description">
-                                <p class="swiper-description__text paragraph">
-                                    This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
-                                </p>
+
+                            <div class="swiper-slider-box close-modal">
+
+                                <div class="swiper-title">
+                                    <h1 class="swiper-title__text h1">2 Enjoy this product</h1>
+                                </div>
+                                <div class="swiper-description">
+                                    <p class="swiper-description__text paragraph">
+                                        This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
+                                    </p>
+                                </div>
+
                             </div>
+
+                            <div class="swiper-slider-box close-modal">
+
+                                <div class="swiper-title">
+                                    <h1 class="swiper-title__text h1">3 Enjoy this product</h1>
+                                </div>
+                                <div class="swiper-description">
+                                    <p class="swiper-description__text paragraph">
+                                        This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slider-box close-modal">
+
+                                <div class="swiper-title">
+                                    <h1 class="swiper-title__text h1">4 Enjoy this product</h1>
+                                </div>
+                                <div class="swiper-description">
+                                    <p class="swiper-description__text paragraph">
+                                        This project required a huge amount of hours but  sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim.
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+
                             <div class="swiper-box">
                                 <div class="swiper-signUp">
-                                    <a href="#" class="swiper-signUp-btn menu__link sign-up-button-small">Sign Up <img src="./img/Flash-black.svg" alt="button-sign-up"></a>
+                                    <a href="#" class="swiper-signUp-btn menu__link sign-up-button-small registration">Sign Up <img src="./img/Flash-black.svg" alt="button-sign-up"></a>
                                 </div>
                                 <div class="swiper-scroll">
-                                    <button class="swiper-scroll-btn"></button>
-                                    <button class="swiper-scroll-btn"></button>
                                     <button class="swiper-scroll-btn swiper-scroll-btn-active"></button>
+                                    <button class="swiper-scroll-btn"></button>
+                                    <button class="swiper-scroll-btn"></button>
                                     <button class="swiper-scroll-btn"></button>
                                 </div>
                                 <div class="swiper-navigation">
@@ -281,7 +333,7 @@
                         <p class="team-title-description paragraph">Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam lorem ipsum dolor.Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     </div>
                     <div class="team-btn-box">
-                        <button class="team-button sign-up-button-big">Join our team<img src="./img/Add-resume.svg" alt="letsgo-logo" class="lets-go_img"></button>
+                        <button class="team-button sign-up-button-big registration">Join our team<img src="./img/Add-resume.svg" alt="letsgo-logo" class="lets-go_img"></button>
                     </div>
                 </div>
                 <div class="team-wrapper">
@@ -366,7 +418,7 @@
                     </div>
                     <form class="footer-form" action="#">
                         <input class="footer-form__input" type="text" placeholder="Input text placeholder">
-                        <button class="footer-form__btn sign-up-button-small">Sign Up <img src="./img/Flash-black.svg" alt="button-sign-up"></button>
+                        <button class="footer-form__btn sign-up-button-small registration">Sign Up <img src="./img/Flash-black.svg" alt="button-sign-up"></button>
                     </form>
                     <div class="footer-social">
                         <a href="#" class="footer-social-link"><img src="./img/footer-social1.svg" alt="" class="footer-social-img"></a>
@@ -425,7 +477,7 @@
                         <div class="footer-inp-inp">
                             <form class="footer-form" action="#">
                                 <input class="footer-second-form__input footer-form__input" type="text" placeholder="Input text placeholder">
-                                <button class="footer-second-form__btn sign-up-button-small ">Sign Up <img src="./img/Flash.svg" alt="button-sign-up"></button>
+                                <button class="footer-second-form__btn sign-up-button-small registration">Sign Up <img src="./img/Flash.svg" alt="button-sign-up"></button>
                             </form>
                         </div>
                         </div>
@@ -440,7 +492,7 @@
         </div>
 
     </footer>
-
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
