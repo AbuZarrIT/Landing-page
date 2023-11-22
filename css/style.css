@@ -636,7 +636,9 @@ section.footer-botom.container {
     border-radius: 6px;
     cursor: pointer;
 }
-
+.burger-menu {
+    display: none;
+}
 /* mobile-first */
 
 @media (max-width: 1200px) {
@@ -767,5 +769,8 @@ section.footer-botom.container {
     }
     .logo {
         margin-top: 10px;
+    }
+    .burger-menu {
+        display: flex;
     }
 }
